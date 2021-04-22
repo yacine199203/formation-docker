@@ -1,8 +1,9 @@
-Après avoir récupéré le tp7 :
-Créer un dossier .devcontainer 
-Créer un fichier devcontainer.json 
+Aprï¿½s avoir rï¿½cupï¿½rï¿½ le tp7ï¿½:
+Crï¿½er un dossier .devcontainer 
+Crï¿½er un fichier devcontainer.json 
 Copier le dockerfile et le docker-compose dans le dossier .devcomposer 
+installation de remote container
 On lance le container 
 On installe les module node avec la commande nom install 
-On exécute avec la commande nom run dev 
+On exï¿½cute avec la commande nom run dev 
 

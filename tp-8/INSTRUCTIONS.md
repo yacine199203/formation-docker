@@ -1,16 +1,21 @@
-# Formation Docker - TP8
+# Formation Docker - TP7
 
-## Création d'un stack pour le developpement avec Remote container
+## Création d'un stack pour le developpement
 
 Objectif :
 
-Dans ce TP, vous trouverez la même application que dans le TP 7. 
+Dans ce TP, vous trouverez une application qui vous faudra dockerizer pour favoriser un environement de developpement.
 
-Mettez en place un devcontainer avec l'extensions "Remote - Containers" fourni par Microsoft.
-https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
+L'application provient du getting-started de docker : https://github.com/docker/getting-started
 
-Pour cela vous devez créer un dossier ".devcontainer" avec les fichiers suivants :
-- Dockerfile 
-- docker-compose.yml
-- devcontainer.json
+Voici comment elle est construite :
+- Back : node js (v12)
+- Front : React JS 
+- Base de donnée, au choix en fonction de paramètre 
+  - sqlite (par défaut)
+  - mysql => Pour activer la base de donnée ajouter les variables d'environements suivantes 
+    - HOST
+    - USER
+    - PASSWORD
+    - DB
 

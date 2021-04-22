@@ -1,0 +1,6 @@
+Créer un fichier sans extension et le nommer Dockerfile 
+A l’aide de FROM on récupère l’environnement sur laquelle sera exécutée la commande  
+A l’aide de ADD ou COPY on ajoute le script à exécuter dans l’image 
+A l’aide de CMD ou ENTRYPOINT on exécute la commande en indiquant le terminal utilisé 
+Avec docker build on crée l’image 
+Avec docker run on exécute l’image 
